@@ -7,7 +7,7 @@ const upload = multer(multerConfig.config).single(multerConfig.keyUpload)
 
 
 
-
+///asdaf
 //////http://localhost:1150/product?name=asree&price=123
 router.get('/product', (req, res) => {
     res.send('GET Porduct')
